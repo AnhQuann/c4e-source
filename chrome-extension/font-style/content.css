@@ -1,0 +1,7 @@
+.banner_hot, .colRight, .m_banner_show, .banner_inread {
+  display: none;
+}
+
+.tynt-ad-container, .region-header, .tynt-ad-media-banner, .ad-mpu {
+  display: none !important;
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "PageFont Style",
+  "version": "1.0",
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "128": "icon_128.png"
+  },
+  "page_action": {
+    "default_icon": "icon_16.png"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.24h.com.vn/*", "http://www.independent.co.uk/*", "https://www.facebook.com/*"],
+      "js": ["content.js", "jquery-3.2.1.min.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "permissions": ["tabs"]
+}

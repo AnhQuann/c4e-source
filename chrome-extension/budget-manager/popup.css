@@ -1,0 +1,11 @@
+.container {
+  width: 200px;
+}
+
+input{
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+}

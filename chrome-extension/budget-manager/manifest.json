@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Budget manager",
+  "version": "1.0",
+  "description": "A little budget manager",
+  "icons": {
+    "128": "icon_128.png",
+    "64": "icon_64.png",
+    "16": "icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ]
+}

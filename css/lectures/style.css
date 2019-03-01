@@ -1,0 +1,115 @@
+.red {
+  color: #f4427a;
+}
+
+.white {
+  color: white;
+}
+
+.bg-red {
+  background-color: #b21e0a
+}
+
+.bg-light-blue {
+  background-color: #becee8;
+}
+
+.bg-light-red {
+  background-color: #d8b8c6;
+}
+
+.h-200px {
+  height: 200px;
+}
+
+.w-400px {
+  width: 400px;
+}
+
+.b-1-solid {
+  border-color: blue;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.b-red {
+  border: red 1px solid;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.w-50p {
+  width: 50%
+}
+
+.w-30p {
+  width: 30%;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.f-georgia {
+  font-family: "Georgia";
+}
+
+.f-verdana {
+  font-family: "Verdana"
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.p-left-20px {
+  padding-left: 20px;
+}
+
+.p-right-20px {
+  padding-right: 20px;
+}
+
+.p-top-20px {
+  padding-top: 20px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.img-top-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.bg-img {
+  background-image: url('man.jpg');
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
